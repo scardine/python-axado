@@ -9,7 +9,7 @@ At the moment this is not officially endorsed by Axado.
 Get an API instance using your API key and call API methods:
 
     axado = Achado('3243a88778b78788c878786d652ee')
-    axado.consulta(
+    result = axado.consulta(
             cep_origem='04544051',
             cep_destino'04568000',
             volumes=[
